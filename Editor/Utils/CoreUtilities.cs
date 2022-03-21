@@ -15,8 +15,8 @@ namespace Frigg.Utils {
 
     public static class CoreUtilities {
         public const BindingFlags FLAGS = BindingFlags.Instance | BindingFlags.NonPublic
-                                                                | BindingFlags.Public
-                                                                | BindingFlags.DeclaredOnly;
+                                                                | BindingFlags.Public;
+                                                                //| BindingFlags.DeclaredOnly;
 
         #region reflection
         
